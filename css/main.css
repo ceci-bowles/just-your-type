@@ -29,11 +29,18 @@ h3 {
 
 .absolute {
   position: absolute;
-  top: 60%;
+  top: 52%;
   width: 100%;
 }
 
 @media only screen and (min-width: 25em) {
+
+  .hidden-3 {
+    visibility: visible;
+  }
+}
+
+@media only screen and (min-width: 38em) {
 
   .hidden {
     visibility: visible;
@@ -45,7 +52,11 @@ h3 {
 
   .absolute-2 {
     position: absolute;
-    top: 0%;
+    top: 62%;
     width: 100%;
+  }
 
+  .hidden-3 {
+    visibility: hidden;
+  }
 }

@@ -5,10 +5,16 @@ html {
 h1 {
   font-family: Anton, sans-serif;
   color: #fff;
+  border-top: solid #fff 2px;
+  border-bottom: solid #fff 2px;
 }
 
 h2 {
   background-color: rgba(82, 59, 36, .5);
   font-family: "Libre Baskerville", serif;
   color: #fff;
+}
+
+h3 {
+  color: #860f0f;
 }

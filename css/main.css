@@ -18,3 +18,23 @@ h2 {
 h3 {
   color: #860f0f;
 }
+
+.hidden {
+  visibility: hidden;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+}
+
+@media only screen and (min-width: 25em) {
+
+
+
+}
